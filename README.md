@@ -1,1 +1,2 @@
 # HomomorphicEncryption_2023
+# This is a series of code used to perform calculations on data without the server seeing any raw data. The data is encrypted, serialized and then sent over a socket to a server, where it is deserialized and the calculations are performed(in this case a simple linear regression). Then the results of theese calculations are serialized and sent back to the client where it is deserialized and decrypted. 
